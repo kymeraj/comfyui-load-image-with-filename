@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-load-image-with-filename"
+description = "A ComfyUI node that loads an image and outputs the original filename as a string. Preserves the real filename even after mask-editor / clipspace edits."
+version = "1.0.0"
+license = "MIT"
+requires-python = ">=3.9"
+
+[project.urls]
+Repository = "https://github.com/kymeraj/comfyui-load-image-with-filename"
+
+[tool.comfy]
+PublisherId = "kymeraj"
+DisplayName = "Load Image With Filename"
+Icon = ""
