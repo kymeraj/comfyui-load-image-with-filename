@@ -1,9 +1,18 @@
 [project]
 name = "comfyui-load-image-with-filename"
-description = "A ComfyUI node that loads an image and outputs the original filename as a string. Preserves the real filename even after mask-editor / clipspace edits."
-version = "1.0.0"
+description = "Drop-in replacement for Load Image that outputs the original filename as a string. Wire it into Save Image to auto-name your outputs. Preserves the real filename even after mask-editor / clipspace painting."
+version = "1.0.1"
 license = {file = "LICENSE"}
 requires-python = ">=3.9"
+keywords = [
+    "comfyui",
+    "load image",
+    "filename",
+    "inpainting",
+    "mask editor",
+    "clipspace",
+    "batch processing",
+]
 
 [project.urls]
 Repository = "https://github.com/kymeraj/comfyui-load-image-with-filename"
@@ -11,4 +20,4 @@ Repository = "https://github.com/kymeraj/comfyui-load-image-with-filename"
 [tool.comfy]
 PublisherId = "kymeraj"
 DisplayName = "Load Image With Filename"
-Icon = ""
+Icon = "https://raw.githubusercontent.com/kymeraj/comfyui-load-image-with-filename/main/icon.png"
