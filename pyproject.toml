@@ -1,7 +1,7 @@
 [project]
 name = "comfyui-load-image-with-filename"
 description = "Drop-in replacement for Load Image that outputs the original filename as a string. Wire it into Save Image to auto-name your outputs. Preserves the real filename even after mask-editor / clipspace painting."
-version = "1.0.1"
+version = "1.0.2"
 license = {file = "LICENSE"}
 requires-python = ">=3.9"
 keywords = [
